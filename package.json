@@ -1,0 +1,20 @@
+{
+  "name": "local",
+  "version": "0.0.1",
+  "description": "prueba de servidor",
+  "license": "ISC",
+  "author": "Juan Canche",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@cerebras/cerebras_cloud_sdk": "^1.64.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
